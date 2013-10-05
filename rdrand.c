@@ -83,7 +83,7 @@ int RdRand_cpuid()
 * 
 * \return bool/int of whether or not rdrand is supported
 */
-__declspec(dllexport) int RdRand_isSupported()
+int RdRand_isSupported()
 {
 	static int supported = RDRAND_SUPPORT_UNKNOWN;
 
